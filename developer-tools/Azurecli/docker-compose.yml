@@ -1,0 +1,8 @@
+services:
+  azurecli:
+    image: mcr.microsoft.com/azure-cli:latest
+    container_name: azurecli-demo
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/.azure:/root/.azure

@@ -1,0 +1,7 @@
+services:
+  ubuntu:
+    image: ubuntu:24.04
+    container_name: ubuntu-demo
+    stdin_open: true
+    tty: true
+    command: bash

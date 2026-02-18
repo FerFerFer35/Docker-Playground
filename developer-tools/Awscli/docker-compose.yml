@@ -1,0 +1,8 @@
+services:
+  awscli:
+    image: amazon/aws-cli:latest
+    container_name: awscli-demo
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/.aws:/root/.aws

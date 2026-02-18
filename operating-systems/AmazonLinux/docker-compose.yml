@@ -1,0 +1,7 @@
+services:
+  amazonlinux:
+    image: amazonlinux:2023
+    container_name: amazonlinux-demo
+    stdin_open: true
+    tty: true
+    command: bash

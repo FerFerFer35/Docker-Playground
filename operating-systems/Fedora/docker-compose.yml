@@ -1,0 +1,7 @@
+services:
+  fedora:
+    image: fedora:40
+    container_name: fedora-demo
+    stdin_open: true
+    tty: true
+    command: bash

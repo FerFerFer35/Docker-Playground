@@ -1,0 +1,7 @@
+services:
+  bash:
+    image: bash:latest
+    container_name: bash-demo
+    stdin_open: true
+    tty: true
+    command: bash

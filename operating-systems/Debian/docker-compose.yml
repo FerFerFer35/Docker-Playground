@@ -1,0 +1,7 @@
+services:
+  debian:
+    image: debian:12
+    container_name: debian-demo
+    stdin_open: true
+    tty: true
+    command: bash
